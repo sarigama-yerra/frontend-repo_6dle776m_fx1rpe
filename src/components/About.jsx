@@ -11,7 +11,7 @@ const skills = [
   {
     icon: <Video className="text-cyan-500" size={22} />,
     title: 'Video Editing',
-    desc: 'CapCut, Premiere Pro. Pengalaman dokumentasi & storytelling.',
+    desc: 'CapCut, Premiere Pro. Pengalaman sebagai script writer & editing.',
   },
   {
     icon: <User className="text-cyan-500" size={22} />,
@@ -84,11 +84,10 @@ const About = () => {
         >
           Halo! Saya tertarik pada pengembangan teknologi dan media kreatif. Saya bersemangat belajar,
           berinovasi, dan menciptakan sesuatu yang bermanfaat. Dengan kemampuan dasar pengembangan web
-          dan editing video, saya ingin berkontribusi di BEM Divisi Media & Teknologi untuk menghadirkan
+          dan editing video, saya ingin berkontribusi untuk menghadirkan
           karya yang informatif, menarik, dan berdampak positif bagi kampus.
         </motion.p>
 
-        {/* Skills */}
         <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {skills.map((s, i) => (
             <motion.div
@@ -108,7 +107,6 @@ const About = () => {
           ))}
         </div>
 
-        {/* Education & Experience */}
         <div className="mt-14 grid gap-6 md:grid-cols-2">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -155,7 +153,6 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* Achievements */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -13,7 +13,6 @@ const Hero = () => {
         />
       </div>
 
-      {/* Gradient overlay for readability (doesn't block Spline interaction) */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
 
       <div className="relative z-10 flex h-full items-center">
@@ -23,10 +22,6 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur-sm">
-              <Rocket size={16} className="text-cyan-300" />
-              <span>Calon Anggota BEM – Divisi Media & Teknologi</span>
-            </div>
             <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
               Ridwan Surya Pamuji
             </h1>

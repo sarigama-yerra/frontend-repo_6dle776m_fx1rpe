@@ -16,7 +16,7 @@ function App() {
         <Contact />
       </main>
       <footer className="border-t border-white/10 bg-neutral-950 py-10 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Ridwan Surya Pamuji — Portofolio Media & Teknologi.
+        © {new Date().getFullYear()} Ridwan Surya Pamuji.
       </footer>
     </div>
   );

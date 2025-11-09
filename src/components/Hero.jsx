@@ -1,14 +1,14 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
 import { motion } from 'framer-motion';
-import { Rocket, Play } from 'lucide-react';
+import { Rocket, Linkedin, Phone } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section id="home" className="relative w-full h-[80vh] overflow-hidden">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/xzUirwcZB9SOxUWt/scene.splinecode"
+          scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -31,9 +31,10 @@ const Hero = () => {
               Ridwan Surya Pamuji
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-base text-gray-200 sm:text-lg">
-              Mengkombinasikan kreativitas dan teknologi untuk BEM yang lebih inovatif.
+              Menggabungkan kreativitas dan teknologi untuk menghadirkan karya yang informatif,
+              menarik, dan berdampak positif bagi lingkungan kampus.
             </p>
-            <div className="mt-8 flex items-center justify-center gap-4">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <a
                 href="#projects"
                 className="rounded-lg bg-cyan-500 px-5 py-3 font-medium text-white shadow-lg shadow-cyan-500/25 transition hover:bg-cyan-400"
@@ -41,11 +42,20 @@ const Hero = () => {
                 Lihat Proyek
               </a>
               <a
-                href="#contact"
+                href="https://www.linkedin.com/in/ridwan-surya-pamuji"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg bg-white/10 px-5 py-3 font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
               >
-                <Play size={18} />
-                Hubungi Saya
+                <Linkedin size={18} /> LinkedIn
+              </a>
+              <a
+                href="https://wa.me/6281329149185"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 rounded-lg bg-white/10 px-5 py-3 font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
+              >
+                <Phone size={18} /> WhatsApp
               </a>
             </div>
           </motion.div>

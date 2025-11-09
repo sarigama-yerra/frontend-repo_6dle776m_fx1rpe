@@ -4,25 +4,25 @@ import { ExternalLink, Github, Clapperboard } from 'lucide-react';
 
 const projects = [
   {
+    title: 'MV Informatika 2025',
+    type: 'Media',
+    desc: 'Berperan sebagai Script Writer dan Editor dalam pembuatan MV Informatika 2025.',
+    tools: ['Premiere Pro', 'CapCut'],
+    links: { live: '#', github: null },
+  },
+  {
     title: 'Website Kegiatan Kampus',
     type: 'Teknologi',
     desc: 'Landing page modern untuk dokumentasi kegiatan kampus dengan fokus pada aksesibilitas dan performa.',
-    tools: ['React', 'Tailwind', 'Vite'],
-    links: { live: '#', github: '#'},
+    tools: ['HTML', 'CSS', 'JavaScript'],
+    links: { live: '#', github: '#' },
   },
   {
-    title: 'Video Dokumentasi ORMAWA',
+    title: 'Konten Dokumentasi ORMAWA',
     type: 'Media',
-    desc: 'Video highlight kegiatan BEM dengan alur storytelling yang hangat dan informatif.',
-    tools: ['Premiere', 'After Effects'],
-    links: { live: 'https://www.youtube.com', github: null},
-  },
-  {
-    title: 'Aplikasi Agenda Kegiatan',
-    type: 'Teknologi',
-    desc: 'Aplikasi sederhana untuk manajemen agenda dan publikasi event BEM.',
-    tools: ['React', 'Node', 'MongoDB'],
-    links: { live: '#', github: '#'},
+    desc: 'Video highlight kegiatan BEM dengan alur storytelling yang informatif dan menarik.',
+    tools: ['Premiere Pro', 'CapCut'],
+    links: { live: 'https://www.youtube.com', github: null },
   },
 ];
 
